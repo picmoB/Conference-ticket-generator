@@ -328,7 +328,7 @@ function setTimer() {
     seconds++;
 
     if (seconds === 2) {
-        multipleProps(loadingScreen, {"display": "flex", "width": "0px", "margin-left": "auto", "margin-right": "auto", "margin-top": "450px"});
+        multipleProps(loadingScreen, {"display": "flex", "width": "0px", "margin-left": "auto", "margin-right": "auto", "margin-top": "450px", "justify-content": "center"});
     }
     if (seconds === 12) {
         document.querySelector(".ticket-generated").style.setProperty("display", "flex");
